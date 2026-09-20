@@ -1,0 +1,5 @@
+print("Nama saya Arya Wira")
+print("Saya Berumur 18")
+print("Saya Berasal Dari Trenggalek")
+print("Saya Mahasiswa Universitas Darussalam")
+print("Saya Mahaiswa Prodi Teknik Informatika")
