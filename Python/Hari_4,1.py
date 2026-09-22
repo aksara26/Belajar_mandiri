@@ -1,0 +1,6 @@
+nama=input("Nama Kamu siapa :")
+umur=int(input("Masukkan umur"))
+kota=input("Masukkan Nama Kota ; ")
+print(nama)
+print(umur)
+print(kota)
