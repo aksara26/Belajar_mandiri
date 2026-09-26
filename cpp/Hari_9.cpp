@@ -7,7 +7,7 @@ int main()
   cout << "===================================" << endl;
   cout << endl;
   
-  int n, t1 = 0, t2 = 1, angka_berikutnya = 0;
+  int n, a = 0, b = 1, angka_berikutnya = 0;
  
     cout << "Jumlah deret fibonacci yang diinginkan: ";
     cin >> n;
@@ -15,17 +15,17 @@ int main()
     for(int i = 1; i <= n; i++) {
         
         if(i == 1) {
-            cout << t1 << " ";
+            cout << a << " ";
             continue;
         }
         if(i == 2) {
-            cout << t2 << " ";
+            cout << b << " ";
             continue;
         }
         
-        angka_berikutnya = t1 + t2;
-        t1 = t2;
-        t2 = angka_berikutnya;
+        angka_berikutnya = a + b;
+        a = b;
+        b = angka_berikutnya;
          
         cout << angka_berikutnya << " ";
     }
